@@ -1,4 +1,21 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "03-deploying-to-a-live-network": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/03-deploying-to-a-live-network.json",
+      "feepayerKeyPath": "/home/oemerfurkan/.cache/zkapp-cli/keys/03-deploy.json",
+      "feepayerAlias": "03-deploy",
+      "fee": "0.1",
+      "smartContract": "Square"
+    },
+    "berkeley": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/berkeley.json",
+      "feepayerKeyPath": "/home/oemerfurkan/.cache/zkapp-cli/keys/berkeley.json",
+      "feepayerAlias": "berkeley",
+      "fee": "0.1",
+      "smartContract": "Square"
+    }
+  }
 }
